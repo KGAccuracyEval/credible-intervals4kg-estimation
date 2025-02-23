@@ -66,13 +66,13 @@ To experiment with different configurations, directly use ```runKGEval.py```. Th
 python runKGEval.py --help
 ```
 
-## Complete Proofs
-
-The complete proofs for Theorems 1-3 can be found in the ```/complete-proofs/``` folder. These full proofs are provided here and not in the paper for space reasons.
-
 ## Extra Experiments
 
 Extra experimental results presenting additional sampling strategies are available in the ```/extra-experiments/``` folder. These results are consistent with those presented in the paper, but are provided here due to space limitations.
+
+## Complete Proofs
+
+The complete proofs for Theorems 1-3 can be found in the ```/complete-proofs/``` folder. These full proofs are provided here and not in the paper for space reasons.
 
 ## Acknowledgments
 
