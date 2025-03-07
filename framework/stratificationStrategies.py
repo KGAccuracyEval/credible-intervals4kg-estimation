@@ -35,4 +35,8 @@ def stratifyCSRF(stratFeature, numStrata):
         stratum = [i for i in range(len(stratFeature)) if stratFeature[i] in intervals]
         if stratum:  # remove empty stratum
             strata += [stratum]
+
+    # sanity check
+    assert len(stratFeature) == sum([len(stratum) for stratum in strata])
+    
     return strata
